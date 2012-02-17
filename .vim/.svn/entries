@@ -1,80 +1,0 @@
-10
-
-dir
-9
-https://dotfiles.codepot.nl/.vim
-https://dotfiles.codepot.nl
-
-
-
-2010-12-07T22:34:59.591670Z
-4
-rlaurman
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-b5bbb1f6-1e89-409a-ac88-75da78115ff9
-
-colors
-dir
-
-doc
-dir
-
-.netrwhist
-file
-12
-
-
-
-2011-10-01T13:21:22.000000Z
-a7d1f53278294a9c2d283d2ed3822c1f
-2012-02-17T21:40:24.262766Z
-12
-rlaurman
-has-props
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-294
-
-nerdtree_plugin
-dir
-
-syntax
-dir
-
-autoload
-dir
-
-plugin
-dir
-
