@@ -45,6 +45,10 @@ alias m="mate"
 alias m.="m ."
 alias m,="m."
 
+#Sublime text
+alias s="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
+alias s.="s -n ."
+
 #MVim
 #alias v="mvim"
 
