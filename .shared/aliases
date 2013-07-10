@@ -40,6 +40,8 @@ alias gpulod="gpulo develop"
 alias gchem="git checkout master"
 alias gmerm="git merge master"
 
+alias gclean="git ls-files -d . | xargs -I{} git rm '{}'"
+
 # Mate
 alias m="mate"
 alias m.="m ."
@@ -49,35 +51,12 @@ alias m,="m."
 alias s="/Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl"
 alias s.="s -n ."
 
-#MVim
-#alias v="mvim"
-
-#alias v.="v ."
-#alias v,="v."
-
 # RVM
 alias 1.9="rvm use 1.9.2 && ruby -v"
 alias 1.8="rvm system && ruby -v"
 
 #alias 19="1.9"
 #alias 18="1.8"
-
-# Rails
-#alias ss="script/server"
-#alias sc="script/console"
-#alias sg="script/generate"
-
-alias rs="rails server"
-alias rc="rails console"
-alias rg="rails generate"
-
-#alias sgco="sg controller"
-#alias sgmo="sg model"
-#alias sgmi="sg migration"
-
-# Rake
-alias r="rake"
-alias rdbm="r db:migrate"
 
 # Mac OSX stuff
 alias ..='cd ..;' # can then do .. .. .. to move up multiple directories.
@@ -91,15 +70,8 @@ alias systail='tail -f /var/log/system.log'
 # alias rb="ruby"
 
 # Jekyll
-# alias j="jekyll"
-# alias js="j --server --auto --pygments"
-
-# Locations
-# alias os="cd ~/opensource"
-# alias op="os"
-#
-alias bookit="cd ~/Sites/prive/bookit"
-alias prive="cd ~/Sites/prive"
+alias j="jekyll"
+alias js="j --server --auto --pygments"
 
 # Apps
 alias chrome="open /Applications/Google\ Chrome.app"
